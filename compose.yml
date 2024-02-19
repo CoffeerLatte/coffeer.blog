@@ -12,10 +12,10 @@ services:
     deploy:
       resources:
         limits:
-          cpus: '0.038'
+          cpus: '0.025'
           memory: 60M
         reservations:
-          cpus: '0.038'
+          cpus: '0.025'
           memory: 50M
 
   blog:
