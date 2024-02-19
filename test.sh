@@ -1,2 +1,2 @@
 #!/bin/bash
-date  >>  tee /home/playdata/code/coffeer.blog/logfile.txt
+date  >>  /home/playdata/code/coffeer.blog/logfile.txt
