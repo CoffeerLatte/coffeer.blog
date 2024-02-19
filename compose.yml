@@ -20,7 +20,7 @@ services:
 
   blog:
     # build: ../../docker_file/httpd
-    image: jeonseungmin/blog
+    image: jeonseungmin/blog:0.1.0
     deploy:
       mode: replicated
       replicas: 1 # https://docs.docker.com/compose/compose-file/deploy/#replicas
