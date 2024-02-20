@@ -21,7 +21,7 @@ services:
 
   blog-a:
     # build: ../../docker_file/httpd
-    build: blog-a/
+    build: docker/bloga/
     deploy:
       mode: replicated
       replicas: 6  # https://docs.docker.com/compose/compose-file/deploy/#replicas
@@ -35,12 +35,11 @@ services:
     expose:
       - "80"
     environment:
-      - VIRTUAL_HOST=google.aws.com
+      - VIRTUAL_HOST=aws.google.com
       - VIRTUAL_PORT=80
-
- blog-b:
+  blog-b:
     # build: ../../docker_file/httpd
-    build: blog-b/
+    build: docker/blogb/
     deploy:
       mode: replicated
       replicas: 6  # https://docs.docker.com/compose/compose-file/deploy/#replicas
