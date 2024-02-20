@@ -10,3 +10,8 @@ First Commit
 ### 240215.4
 
 -[ ] git
+
+### 240220
+
+
+-[ ] manual
